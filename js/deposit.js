@@ -22,6 +22,6 @@ document.getElementById('btn-deposite').addEventListener('click', () => {
     const currentBankTotalBalance = previousTotalBankBalanceFloat + newDepositeAmountFloat;
     totalBalanceElem.innerText = currentBankTotalBalance;
 
-    // step-7: clear the deposite field
+    // step-6: clear the deposite field
     userDeposite.value = '';
 });

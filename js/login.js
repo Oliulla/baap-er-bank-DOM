@@ -10,10 +10,10 @@ document.getElementById('btn-submit').addEventListener('click', () => {
 
     //Danger: DO NOT VERIFY email password on the client side
     // step-4: verify email and password and check user either valid or Invalid
-    if(userEmail === 'sontan@baap.com' && userPassword === 'secret'){
-        window.location.href = 'bank.html';
-    } else {
-        alert('Wrong email or password');
-    }
+    // if(userEmail === 'sontan@baap.com' && userPassword === 'secret'){
+    //     window.location.href = 'bank.html';
+    // } else {
+    //     alert('Wrong email or password');
+    // }
 });
 // log in form end

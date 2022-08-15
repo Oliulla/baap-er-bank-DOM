@@ -21,6 +21,6 @@ document.getElementById('btn-withdraw').addEventListener('click', () => {
     const currentBankTotalBalance = totalBalance - newUserWithdrawAmountFloat;
     totalBankBalanceElem.innerText = currentBankTotalBalance;
 
-    // step-7: clear the deposite field
+    // step-6: clear the withdraw field
     userWithdraw.value = '';
 });
